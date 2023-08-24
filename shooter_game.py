@@ -21,7 +21,7 @@ class GameSprite(pygame.sprite.Sprite):
     def paint(self):
         window.blit(self.image, (self.rect.x, self.rect.y))
 
-hart_img = pygame.image.load("hart.jpg")
+hart_img = pygame.image.load("rocket.png")
 
 class Player(GameSprite): 
     def __init__(self, x, y, w, h, image, speed, hp):
